@@ -1,0 +1,11 @@
+.vscode/
+node_modules/
+lib/
+
+*.lock
+*.log
+*-lock.json
+TODO.*
+*.tgz
+*.zip
+doc/config.js

@@ -1,0 +1,32 @@
+{
+  "name": "einer-type",
+  "version": "0.0.1",
+  "description": "Determine the type of a variable",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "author": "jinbin",
+  "license": "MPL-2.0",
+  "files": [
+    "lib",
+    "README.md",
+    "README.en.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint --fix",
+    "format": "prettier -w ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeronehost/einer-type.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeronehost/einer-type/issues"
+  },
+  "homepage": "https://github.com/zeronehost/einer-type#readme",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "prettier": "^2.3.0",
+    "rollup": "^2.47.0"
+  }
+}
