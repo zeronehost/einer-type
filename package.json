@@ -1,13 +1,15 @@
 {
   "name": "einer-type",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Determine the type of a variable",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
+  "typings": "types/index.d.ts",
   "author": "jinbin",
   "license": "MPL-2.0",
   "files": [
     "lib",
+    "types",
     "README.md",
     "README.en.md"
   ],

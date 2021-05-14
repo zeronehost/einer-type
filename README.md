@@ -1,6 +1,6 @@
 # einer-type
 
-判断一个变量的类型。[中文](./README.en.md)
+判断一个变量的类型。[English](./README.en.md)
 
 ## 安装
 
