@@ -41,7 +41,13 @@ export const isBoolean = (x) =>
  */
 export const isFunction = (x) =>
   Object.prototype.toString.call(x).toLowerCase() === "[object function]";
-
+/**
+ * 判断是否是async函数
+ * @param {any} x
+ * @returns {boolean}
+ */
+export const isAsyncFunction = (x) =>
+  Object.prototype.toString.call(x).toLowerCase() === "[object asyncfunction]";
 /**
  * 判断对象中是否存在该属性
  * @param {object} obj

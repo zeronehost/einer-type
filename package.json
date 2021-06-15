@@ -1,6 +1,6 @@
 {
   "name": "einer-type",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Determine the type of a variable",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",

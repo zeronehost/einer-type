@@ -69,6 +69,14 @@ import { isFunction } from "einer-type";
 console.log(isFunction(() => {})); // -> true
 ```
 
+#### isAsyncFunction
+
+```javascript
+import { isAsyncFunction } from "einer-type";
+
+console.log(isAsyncFunction(async() => {})); // -> true
+```
+
 #### has
 
 ```javascript
@@ -129,6 +137,14 @@ console.log(isBoolean(false)); // -> true
 const { isFunction } = require("einer-type");
 
 console.log(isFunction(() => {})); // -> true
+```
+
+#### isAsyncFunction
+
+```javascript
+const { isAsyncFunction } = require("einer-type");
+
+console.log(isAsyncFunction(async() => {})); // -> true
 ```
 
 #### has
